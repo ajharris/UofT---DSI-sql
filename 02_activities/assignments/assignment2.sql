@@ -164,6 +164,9 @@ CROSS JOIN (
 GROUP BY v.vendor_name
 ORDER BY total_estimated_revenue DESC;
 
+-- NOTE: I don't see how this can be done, we dcn't have the selling price for any vendors products apart from vendors 4, 7, and 8 
+-- consequently this only returns estimates for records associated with 3 vendors
+
 -- INSERT
 /*1.  Create a new table "product_units". 
 This table will contain only products where the `product_qty_type = 'unit'`. 
