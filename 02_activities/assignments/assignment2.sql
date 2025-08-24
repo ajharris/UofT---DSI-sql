@@ -99,8 +99,6 @@ SELECT
 FROM product;
 
 
-
-
 -- UNION
 /* 1. Using a UNION, write a query that displays the market dates with the highest and lowest total sales.
 
